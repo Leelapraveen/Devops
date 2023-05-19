@@ -10,7 +10,7 @@ Resources:
         Fn::Base64: !Sub |
           #!/bin/bash
           echo "Hello, EC2 instance!"
-
+#
   MyS3Bucket:
     Type: AWS::S3::Bucket
     Properties:
